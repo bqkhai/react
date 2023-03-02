@@ -1,9 +1,10 @@
 import { FC } from 'react'
+import { Counter } from './components/counter'
 
 const App: FC = () => {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Counter />
     </div>
   )
 }
